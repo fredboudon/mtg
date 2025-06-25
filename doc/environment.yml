@@ -1,0 +1,12 @@
+name: mtg
+channels:
+  - openalea3
+  - conda-forge
+
+dependencies:
+  - python
+  - sphinx_rtd_theme
+  - openalea.plantgl
+  - pip
+  - pip:
+    - -e ..[doc]
